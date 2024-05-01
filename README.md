@@ -32,7 +32,7 @@ For comparing node energy index and workload energy index, the same metrics are 
     - The workload should run for some time to accumulate metric data. The longer the measurement, the more accurate the energy index.
     - The average value of the energy index will be available in the "Mean pod energy index" panel.
 
-## Рабочие нагрузки для измерения энергоэффективности ноды
+## Workloads
 - [Stress workload](https://github.com/HIRO-MicroDataCenters-BV/workload-stress) 
     Stress workload launches a stress test on the node's server. It allows you to manage the intensity of the load on various components (CPU, Memory, Storage). This workload is useful for developing and testing methodology, but it is not applicable for measuring energy efficiency because the load is synthetic and does not correspond to the real workload exerted by GLACIATION workloads.
 - [Simple workload](https://github.com/glaciation-heu/simple-workload) 
