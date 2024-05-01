@@ -18,14 +18,14 @@ For comparing node energy index and workload energy index, the same metrics are 
 2. Energy efficiency measurement
     - Setup resource limits in Helm Chart for workload. For example:
     ```json
-    limits:
-    cpu: "5"
-    memory: "1024Mi"
-    ephemeral-storage: "600Mi"
-    requests:
-    cpu: "3"
-    memory: "800Mi"
-    ephemeral-storage: "500Mi"
+        limits:
+            cpu: "5"
+            memory: "1024Mi"
+            ephemeral-storage: "600Mi"
+        requests:
+            cpu: "3"
+            memory: "800Mi"
+            ephemeral-storage: "500Mi"
     ```
     - Deploy the workload (standard workload for measuring node energy index or the investigated workload for workload energy index) in one pod on one node.
     - Select the workload's pod in the dashboard filters.
